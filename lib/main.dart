@@ -11,7 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Text("Hello"),
+      home: Center(
+        child: Text(
+          "ATTENDANCE",
+        ),
+      ),
     );
   }
 }
